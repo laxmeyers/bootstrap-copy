@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Copy</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+      defer
+    ></script>
+
+    <style>
+      body.debug .container,
+      body.debug .container-fluid {
+        outline: 2px double blue;
+        outline-offset: -2px;
+      }
+
+      body.debug .row {
+        outline: 2px dashed red;
+        outline-offset: -2px;
+      }
+
+      body.debug [class*="col-"] {
+        outline: 2px dotted forestgreen;
+        outline-offset: -3px;
+      }
+    </style>
+  </head>
+
+  <body class="deug">
+    <header>
+      <div class="container-fluid">
+        <div class="row hero">
+          <div class="col-6 glass-card text-light">
+            <h1>Styl.us</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. <br />
+              Fuga sequi excepturi ab, eligendi illum veritatis
+            </p>
+            <button type="button" class="btn btn-primary">
+              Get Your Stylus
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="container-fluid text-center ">
+        <div class="row justify-content-center bg-primary text-light py-5 d-block d-sm-flex">
+          <div class="col-sm-2">
+            <img src="//via.placeholder.com/100" alt="" />
+            <h4>natural writing</h4>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis
+              aliquid nesciunt provident ea assumenda sunt!
+            </p>
+          </div>
+          <div class="col-sm-2">
+            <img src="//via.placeholder.com/100" alt="" />
+
+            <h4>natural writing</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
+              aspernatur dolor provident recusandae, a nobis.
+            </p>
+          </div>
+          <div class="col-sm-2">
+            <img src="//via.placeholder.com/100" alt="" />
+
+            <h4>natural writing</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim,
+              dolore fuga? Alias magnam perferendis beatae!
+            </p>
+          </div>
+          <div class="col-sm-2">
+            <img src="//via.placeholder.com/100" alt="" />
+
+            <h4>natural writing</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
+              optio, aperiam laboriosam quo est maxime.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container margin">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h2>Get news from stylus</h2>
+            <p>Leave us your email and get stylu news</p>
+            <form action="">
+              <input type="text" />
+              <button type="submit" class="btn btn-primary">Subscribe</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 map"></div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="bg-dark text-light">
+      <div class="container-fluid">
+        <div class="row text-center align-items-center">
+          <div class="col-6">
+            <img src="https://via.placeholder.com/30" alt="" />
+            <img src="https://via.placeholder.com/30" alt="" />
+            <img src="https://via.placeholder.com/30" alt="" />
+            <img src="https://via.placeholder.com/30" alt="" />
+          </div>
+          <div class="col-6">
+            <p class="m-0">Stylus is a fictive product</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
